@@ -1,0 +1,230 @@
+
+# s = input("Enter string: ")
+# count = 0
+# for ch in s:
+#     if ch.lower() in "aeiou":
+#         count += 1
+# print("Vowels:", count)
+
+# s = input("Enter string: ")
+# rev = ""
+# for ch in s:
+#     rev = ch + rev
+# print("Reversed:", rev)
+
+# s = input("Enter string: ")
+# rev = ""
+# for ch in s:
+#     rev = ch + rev
+
+# if s == rev:
+#     print("Palindrome")
+# else:
+#     print("Not Palindrome")
+# s = input("Enter string: ")
+# upper = lower = 0
+
+# for ch in s:
+#     if 'A' <= ch <= 'Z':
+#         upper += 1
+#     elif 'a' <= ch <= 'z':
+#         lower += 1
+
+# print("Uppercase:", upper)
+# print("Lowercase:", lower)
+
+# s = input("Enter string: ")
+# result = ""
+
+# for ch in s:
+#     if ch != " ":
+#         result += ch
+
+# print("Without spaces:", result)
+
+
+# s = input("Enter string: ")
+# frea = {}
+
+# for ch in s:
+#     if ch in frea:
+#         frea[ch] += 1
+#     else:
+#         frea[ch] = 1
+
+# print(frea)
+
+
+# s = input("Enter string: ")
+# count = 0
+
+# for ch in s:
+#     if '0' <= ch <= '9':
+#         count += 1
+
+# print("Digits:", count)
+
+
+# s = input("Enter string: ")
+# flag = True
+
+# for ch in s:
+#     if not (('A' <= ch <= 'Z') or ('a' <= ch <= 'z')):
+#         flag = False
+#         break
+
+# print("Only alphabets" if flag else "Contains non-alphabet")
+
+
+# s = input("Enter string: ")
+# result = ""
+
+# for ch in s:
+#     if 'a' <= ch <= 'z':
+#         result += chr(ord(ch) - 32)
+#     else:
+#         result += ch
+
+# print(result)
+
+# s = input("Enter string: ")
+
+# for i in range(0, len(s), 2):
+#     print(s[i], end=" ")
+
+
+
+
+# s = input("Enter string: ")
+# count = 0
+# in_word = False
+
+
+
+# for ch in s:
+#     if ch != " " and not in_word:
+#         count += 1
+#         in_word = True
+#     elif ch == " ":
+#         in_word = False
+# print("Words:", count)
+
+
+# s = input("Enter string: ")
+# count = 0
+# in_word = False
+
+# for ch in s:
+#     if ch != " " and not in_word:
+#         count += 1
+#         in_word = True
+#     elif ch == " ":
+#         in_word = False
+
+# print("Words:", count)
+
+
+# s = input("Enter string: ")
+# result = ""
+
+# for ch in s:
+#     if ch.lower() in "aeiou":
+#         result += "*"
+#     else:
+#         result += ch
+
+# print(result)
+
+
+# s = input("Enter sentence: ")
+# word = ""
+# max_word = ""
+
+# for ch in s + " ":
+#     if ch != " ":
+#         word += ch
+#     else:
+#         if len(word) > len(max_word):
+#             max_word = word
+#         word = ""
+
+# print("Longest word:", max_word)
+
+
+# s1 = input("Enter first string: ")
+# s2 = input("Enter second string: ")
+
+# if len(s1) != len(s2):
+#     print("Not anagrams")
+# else:
+#     count = {}
+#     for ch in s1:
+#         count[ch] = count.get(ch, 0) + 1
+
+#     for ch in s2:
+#         if ch in count:
+#             count[ch] -= 1
+#         else:
+#             print("Not anagrams")
+#             break
+#     else:
+#         if all(v == 0 for v in count.values()):
+#             print("Anagrams")
+#         else:
+#             print("Not anagrams")
+
+
+# s = input("Enter string: ")
+# count = 0
+
+# for ch in s:
+#     if not (ch.isalnum()):
+#         count += 1
+
+# print("Special characters:", count)
+
+
+# s = input("Enter string: ")
+# n = int(input("Enter number: "))
+
+# for ch in s:
+#     print(ch * n)
+
+
+#     s = input("Enter string: ")
+# result = ""
+
+# for ch in s:
+#     if ch not in result:
+#         result += ch
+
+# print(result)
+
+
+# s = input("Enter string: ")
+# count = 0
+
+# for ch in s.lower():
+#     if ch.isalpha() and ch not in "aeiou":
+#         count += 1
+
+# print("Consonants:", count)
+
+# s = input("Enter string: ")
+
+# if 'a' <= s[0] <= 'z':
+#     s = chr(ord(s[0]) - 32) + s[1:]
+
+# print(s)
+
+
+# s = input("Enter string: ")
+
+# for ch in s:
+#     if ch.lower() in "aeiou":
+#         break
+#     print(ch, end="")
+
+
+
+
