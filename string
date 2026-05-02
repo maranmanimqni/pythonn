@@ -218,12 +218,14 @@
 # print(s)
 
 
-# s = input("Enter string: ")
+s = input("Enter string: ")
 
-# for ch in s:
-#     if ch.lower() in "aeiou":
-#         break
-#     print(ch, end="")
+for ch in s:
+    if ch.lower() in "aeiou":
+        break
+    print(ch, end="")
+    
+
 
 
 
